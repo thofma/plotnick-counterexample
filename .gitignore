@@ -1,0 +1,23 @@
+# Julia coverage and allocation reports.
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# Machine-specific dependency files and documentation builds.
+deps/deps.jl
+deps/build.log
+deps/downloads/
+deps/usr/
+deps/src/
+docs/build/
+docs/site/
+
+# Keep the reproducible notebook environment under version control.
+Manifest*.toml
+!notebooks/Manifest.toml
+LocalPreferences.toml
+JuliaLocalPreferences.toml
+
+# Jupyter checkpoints and macOS metadata.
+.ipynb_checkpoints/
+.DS_Store
